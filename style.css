@@ -17,7 +17,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #e5e5e5;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Source Sans 3", sans-serif;
+	font-optical-sizing: auto;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -31,3 +32,109 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+h1 {
+	font-size: 90px;
+	font-weight: 400;
+	margin: 0;
+}
+
+h2 {
+	color: #48418e;
+	font-weight: 700;
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0 50px;
+}
+
+.link {
+	padding: 25px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: rgb(13, 13, 13);
+}
+
+.non-link {
+	margin-right: 20px;
+	padding: 25px 0;
+	color: #25133d;
+	font-weight: 700;
+}
+
+.link:hover {
+	background-color: #48418e;
+}
+
+.link a:hover {
+	color: white;
+}
+
+.hero {
+	padding: 50px;
+	background-image: url(images/pozadi.jpg);
+	min-height: 450px;
+	color: rgb(229, 229, 229);
+	position: relative;
+}
+
+.phone {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.description {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.buttons {
+	margin: 50px 0;
+}
+
+.buttons a {
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 20px 30px;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.download {
+	background-color: #48418e;
+	margin-right: 20px;
+}
+
+.info {
+	display: flex;
+	gap: 5px;
+}
+
+.card {
+	padding: 40px 30px;
+	text-align: center;
+	flex-basis: calc(100% / 3);
+}
+
+.info img {
+	max-width: 60px;
+}
+
+footer p {
+	background-color: #48418e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+
+

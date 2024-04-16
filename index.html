@@ -5,6 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Superappka (standardní varianta)</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,762;1,762&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,47 +15,62 @@
 	<div class="obal">
 
 		<!-- menu -->
-		<ul>
-			<li>SUPER APPKA</li>
-			<li><a href="#">Úžasný design</a></li>
-			<li><a href="#">Boží funkce</a></li>
-			<li><a href="#">Zdarma ke stažení</a></li>
-		</ul>
-
+		<nav>
+			<ul class="menu">
+				<li class="non-link">SUPER APPKA</li>
+				<li class="link"><a href="#">Úžasný design</a></li>
+				<li class="link"><a href="#">Boží funkce</a></li>
+				<li class="link"><a href="#">Zdarma ke stažení</a></li>
+			</ul>
+		</nav>
 
 		<!-- hero sekce / banner -->
-		<h1>Super Appka</h1>
+		<section class="hero">
+			<h1>Super Appka</h1>
 
-		<p>
-			Úžasná mobilní aplikace,
-			<br> která Ti změní život.
-		</p>
+			<p class="description">
+				Úžasná mobilní aplikace,
+				<br> která Ti změní život.
+			</p>
 
-		<a href="#">Stáhnout zdarma</a>
-		<a href="#">Více informací</a>
+			<div class="buttons">
+				<a href="#" class="download">Stáhnout zdarma</a>
+				<a href="#">Více informací</a>
+			</div>
 
-		<img src="images/telefon.png" alt="Telefon">
+			<img class="phone" src="images/telefon.png" alt="Telefon">
 
-
+		</section>
 
 
 		<!-- obsah se 3 sloupci -->
-		<img src="images/letadlo.svg" alt="Letadlo">
-		<h2>Cestuj po světě</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.</p>
+		<section class="info">
 
-		<img src="images/bubliny.svg" alt="Bubliny">
-		<h2>Chatuj s přáteli</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.</p>
+			<div class="card">
+				<img src="images/letadlo.svg" alt="Letadlo">
+				<h2>Cestuj po světě</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.</p>
+			</div>
 
-		<img src="images/mapa.svg" alt="Mapa">
-		<h2>Zažij dobrodružství</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.</p>
+			<div class="card">
+				<img src="images/bubliny.svg" alt="Bubliny">
+				<h2>Chatuj s přáteli</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.
+				</p>
+			</div>
 
+			<div class="card">
+				<img src="images/mapa.svg" alt="Mapa">
+				<h2>Zažij dobrodružství</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis maxime quisquam cum ut nobis corporis ipsa eveniet deleniti.</p>
+			</div>
+
+		</section>
 
 		<!-- patička -->
-		<p>&copy;2020, Czechitas</p>
-
+		<footer>
+			<p>&copy;2020, Czechitas</p>
+		</footer>
 
 	</div><!-- konec obalu -->
 
